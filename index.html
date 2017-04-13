@@ -7,7 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
-
+  
+  <script src="js/handsontable.full.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/handsontable.full.min.css">
+  
+  
   <title>HTML Skeleton</title>
 
   <link rel="stylesheet" href="css/main.css">
@@ -16,7 +20,28 @@
 
 <body>
   <h1>HTML Basic Skeleton Page</h1>
+  <div id="example"></div>
+
   
 </body>
+<script>
+var
+  data = [
+    ['', 'Maserati', 'Mazda', 'Mercedes', 'Mini', 'Mitsubishi'],
+    ['2009', 0, 2941, 4303, 354, 5814],
+    ['2010', 3, 2905, 2867, 412, 5284],
+    ['2011', 4, 2517, 4822, 552, 6127],
+    ['2012', 2, 2422, 5399, 776, 4151]
+  ],
+  container = document.getElementById('example'),
+  hot;
 
+hot = new Handsontable(container, {
+  data: data,
+  minSpareRows: 1,
+  colHeaders: true,
+  contextMenu: true
+});
+
+</script>
 </html>
