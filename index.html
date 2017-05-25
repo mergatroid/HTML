@@ -6,40 +6,111 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="js/scripts.js"></script>
-  
-  <script src="js/handsontable.full.min.js"></script>
+ 
   <link type="text/css" rel="stylesheet" href="css/handsontable.full.min.css">
+  <link href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" rel="stylesheet">
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
   
-  
-  <title>HTML Skeleton</title>
-
-  <link rel="stylesheet" href="css/main.css">
+  <title>Interactive Grid</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="icon" href="images/favicon.png">
 </head>
-
-<body>
-  <h1>HTML Basic Skeleton Page</h1>
-  <div id="example"></div>
-
+<style>
+  body,td,th,table{font-family: 'Lato', sans-serif;font-size:12px;}
+  th {text-align:center;font-size:0.8em;font-weight:800;padding:3px;color:#444;}
+  td { text-align:center;font-size:10px;padding:2px;}
   
+</style>
+<body>
+  <table id="jtable" border="1">
+  </table>
 </body>
 <script>
-var
-  data = [
-    ['', 'Maserati', 'Mazda', 'Mercedes', 'Mini', 'Mitsubishi'],
-    ['2011', 4, 2517, 4822, 552, 6127],
-    ['2012', 2, 2422, 5399, 776, 4151]
-  ],
-  container = document.getElementById('example'),
-  hot;
+var json;
 
-hot = new Handsontable(container, {
-  data: data,
-  minSpareRows: 1,
-  colHeaders: true,
-  contextMenu: true
-});
+function createHeaderRow(headerName,addToElement,cols) {
+	var para = document.createElement("tr");
+    var rtd = document.createElement("td");
+	rtd.setAttribute('colspan',cols);
+	rtd.setAttribute("style", "background-color: #efefef;text-align:left;font-size:12px;font-weight:bold");
+	rtd.appendChild(document.createTextNode(headerName));
+	para.appendChild(rtd);
+	addToElement.appendChild(para);
+}
+
+function createCell(str,row,split,elType) {
+	if (str == null) {
+	   str = '';
+	}
+
+	var para = document.createElement(elType);
+	if (split) {
+	var items = str.split('|');
+		for (j=0;j<items.length;j++) {
+			para.appendChild(document.createTextNode(items[j]));
+			para.appendChild(document.createElement("br"));
+		}
+	}
+	else
+	{
+	para.appendChild(document.createTextNode(str));
+	}
+	row.appendChild(para);
+}
+
+   
+   var element = document.getElementById("jtable"); 
+
+
+ $.getJSON( "example.json", function( json ) {
+   var th = document.createElement("thead");
+   element.appendChild(th);
+   
+   var tr = document.createElement("tr");
+   tr.setAttribute('id','header1');
+   
+   createCell("",tr,true,"th");
+   for (i = 0 ; i < json.table[0].reqs.length;i++){
+	 createCell(json.table[0].reqs[i].req +'|' +json.table[0].reqs[i].cd +' '+json.table[0].reqs[i].ct +"|" +json.table[0].reqs[i].stat,tr,true,"th");
+	 console.log(json.table[0].reqs[i]);
+	} 
+    th.appendChild(tr);
+
+	var tbody = document.createElement("tbody");
+
+
+	//for (h = 0 ; h < json.table.length;h++){
+	for (h = 0 ; h < 1;h++){
+		for (i = 0 ; i < json.table[h].group.length;i++){
+		createHeaderRow(json.table[h].group[i].name,tbody,json.table[h].reqs.length+1);
+		  console.log(json.table[h].group[i].test);
+		  console.log('#TESTS ' +json.table[h].group[i].test.length);
+		   for (j = 0 ; j < json.table[h].group[i].test.length;j++) {
+			   var trG = document.createElement("tr");
+			   trG.setAttribute('id','group'+i);
+			   testTD = document.createElement("td");
+  			   test_name = document.createTextNode(json.table[h].group[i].test[j].name);
+			   testTD.appendChild(test_name);
+   			   trG.appendChild(testTD);
+			   for (k = 0; k < json.table[h].group[i].test[j].reqs.length;k++){
+			   //createCell(json.table[h].group[i].test[j].reqs[k].val,trG,false,"td");
+			   ti = document.createElement("td")
+			   ti.innerHTML = json.table[h].group[i].test[j].reqs[k].val;
+			   tbody.appendChild(ti);
+			  
+			   console.log('TEST - '+k +' - ' +json.table[h].group[i].test[j].name);
+			   } // end of k loop 
+			} // end of j loop
+			tbody.appendChild(trG);
+		} 	// end of i loop
+	}
+	
+ 	element.appendChild(tbody);
+ });
+
+    
 
 </script>
+
+
 </html>

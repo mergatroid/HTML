@@ -1,0 +1,15 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+</head>
+<body>
+</body>
+<script>
+var json;
+ $.getJSON( "example.json", function( json ) {
+   for (i = 0 ; i < json.table[0].reqs.length;i++){
+     console.log( json.table[0].name +" :: " + json.table[0].reqs[i].req);
+	} 
+ });
+ </script>
+ </html>
