@@ -1,0 +1,6088 @@
+{
+  "table": [
+    {
+      "name": "Standard",
+      "reqs": [
+        {
+          "req": "341149761",
+          "stat": "COMP",
+          "cd": "2017-04-10",
+          "ct": "08:38"
+        },
+        {
+          "req": "341158452",
+          "stat": "COMP",
+          "cd": "2017-04-06",
+          "ct": "15:20"
+        },
+        {
+          "req": "460949424",
+          "stat": "COMP",
+          "cd": "2017-04-01",
+          "ct": "10:20"
+        },
+        {
+          "req": "341128150",
+          "stat": "COMP",
+          "cd": "2016-10-19",
+          "ct": "07:55"
+        },
+        {
+          "req": "341124335",
+          "stat": "COMP",
+          "cd": "2016-10-17",
+          "ct": "07:40"
+        },
+        {
+          "req": "341128505",
+          "stat": "COMP",
+          "cd": "2016-10-15",
+          "ct": "20:10"
+        },
+        {
+          "req": "341128638",
+          "stat": "COMP",
+          "cd": "2016-10-13",
+          "ct": "11:05"
+        },
+        {
+          "req": "341364727",
+          "stat": "COMP",
+          "cd": "2015-09-30",
+          "ct": "07:55"
+        },
+        {
+          "req": "341359245",
+          "stat": "COMP",
+          "cd": "2015-09-28",
+          "ct": "07:30"
+        },
+        {
+          "req": "341364050",
+          "stat": "COMP",
+          "cd": "2015-09-22",
+          "ct": "09:35"
+        },
+        {
+          "req": "341299145",
+          "stat": "COMP",
+          "cd": "2014-05-23",
+          "ct": "08:15"
+        },
+        {
+          "req": "341257904",
+          "stat": "COMP",
+          "cd": "2013-10-07",
+          "ct": "09:30"
+        },
+        {
+          "req": "341257282",
+          "stat": "COMP",
+          "cd": "2013-09-14",
+          "ct": "09:00"
+        },
+        {
+          "req": "341264167",
+          "stat": "COMP",
+          "cd": "2013-09-12",
+          "ct": "14:40"
+        },
+        {
+          "req": "341249676",
+          "stat": "COMP",
+          "cd": "2013-09-11",
+          "ct": "07:44"
+        },
+        {
+          "req": "341249648",
+          "stat": "COMP",
+          "cd": "2013-09-09",
+          "ct": "17:50"
+        },
+        {
+          "req": "341208533",
+          "stat": "COMP",
+          "cd": "2012-06-29",
+          "ct": "07:48"
+        },
+        {
+          "req": "341208433",
+          "stat": "COMP",
+          "cd": "2012-06-25",
+          "ct": "15:35"
+        }
+      ],
+      "group": [
+        {
+          "name": "Haematology",
+          "test": [
+            {
+              "code": "3001.350",
+              "name": "ESR",
+              "unt": "mm\/hr",
+              "rng": "1 - 55",
+              "reqs": [
+                {
+                  "val": "19"
+                },
+                {
+                  "val": "23"
+                },
+                {
+                  
+                },
+                {
+                  "val": "23"
+                },
+                {
+                  "val": "24"
+                },
+                {
+                  
+                },
+                {
+                  "val": "43"
+                },
+                {
+                  "val": "85",
+                  "flg": "H",
+                  "com": "@RESULT ENTRY CONFIRMED BYDIPP,E;30\/09\/15;1257\n"
+                },
+                {
+                  
+                },
+                {
+                  "val": "117",
+                  "flg": "H"
+                },
+                {
+                  "val": "38"
+                },
+                {
+                  "val": "22"
+                },
+                {
+                  "val": "6"
+                },
+                {
+                  
+                },
+                {
+                  "val": "6"
+                },
+                {
+                  "val": "18"
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "3001.350",
+              "name": "ESR",
+              "unt": "mm\/hr",
+              "rng": "1 - 45",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "14"
+                },
+                {
+                  "val": "29"
+                }
+              ]
+            },
+            {
+              "code": "3020.100",
+              "name": "ERYTHROCYTE COUNT",
+              "unt": "x10^12\/L",
+              "rng": "3.8 - 5.5",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "3.51",
+                  "flg": "L"
+                },
+                {
+                  "val": "3.44",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3.27",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3.49",
+                  "flg": "L"
+                },
+                {
+                  "val": "3.61",
+                  "flg": "L"
+                },
+                {
+                  "val": "3.86"
+                },
+                {
+                  "val": "4.38"
+                },
+                {
+                  "val": "3.93"
+                },
+                {
+                  "val": "3.15",
+                  "flg": "L"
+                },
+                {
+                  "val": "3.29",
+                  "flg": "L"
+                },
+                {
+                  "val": "3.43",
+                  "flg": "L"
+                },
+                {
+                  "val": "3.66",
+                  "flg": "L"
+                }
+              ]
+            },
+            {
+              "code": "3020.110",
+              "name": "HAEMOGLOBIN",
+              "unt": "g\/dL",
+              "rng": "12.4 - 16.7",
+              "reqs": [
+                {
+                  "val": "12.4"
+                },
+                {
+                  "val": "10.7",
+                  "flg": "L"
+                },
+                {
+                  "val": "10.4",
+                  "flg": "L"
+                },
+                {
+                  "val": "12.9"
+                },
+                {
+                  "val": "12.5"
+                },
+                {
+                  "val": "12.5"
+                },
+                {
+                  "val": "9.6",
+                  "flg": "L"
+                },
+                {
+                  "val": "12.1",
+                  "flg": "L",
+                  "com": "@ PREV LOW\n"
+                },
+                {
+                  "val": "11.3",
+                  "flg": "L"
+                },
+                {
+                  "val": "10.1",
+                  "flg": "L"
+                },
+                {
+                  "val": "10.7",
+                  "flg": "L"
+                },
+                {
+                  "val": "11.4",
+                  "flg": "L"
+                },
+                {
+                  "val": "13.3"
+                },
+                {
+                  "val": "11.7",
+                  "flg": "L"
+                },
+                {
+                  "val": "9.5",
+                  "flg": "L"
+                },
+                {
+                  "val": "10.0",
+                  "flg": "L"
+                },
+                {
+                  "val": "10.9",
+                  "flg": "L"
+                },
+                {
+                  "val": "11.8",
+                  "flg": "L"
+                }
+              ]
+            },
+            {
+              "code": "3020.120",
+              "name": "HAEMATOCRIT",
+              "unt": "L\/L",
+              "rng": "0.35 - 0.49",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "0.32",
+                  "flg": "L"
+                },
+                {
+                  "val": "0.32",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.28",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.31",
+                  "flg": "L"
+                },
+                {
+                  "val": "0.33",
+                  "flg": "L"
+                },
+                {
+                  "val": "0.35"
+                },
+                {
+                  "val": "0.39"
+                },
+                {
+                  "val": "0.34",
+                  "flg": "L"
+                },
+                {
+                  "val": "0.29",
+                  "flg": "L"
+                },
+                {
+                  "val": "0.30",
+                  "flg": "L"
+                },
+                {
+                  "val": "0.32",
+                  "flg": "L"
+                },
+                {
+                  "val": "0.34",
+                  "flg": "L"
+                }
+              ]
+            },
+            {
+              "code": "3020.130",
+              "name": "MCV",
+              "unt": "fL",
+              "rng": "79 - 100",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "93.0"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "85.3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "87.4"
+                },
+                {
+                  "val": "90.3"
+                },
+                {
+                  "val": "89.4"
+                },
+                {
+                  "val": "88.4"
+                },
+                {
+                  "val": "87.5"
+                },
+                {
+                  "val": "91.1"
+                },
+                {
+                  "val": "90.6"
+                },
+                {
+                  "val": "92.9"
+                },
+                {
+                  "val": "92.4"
+                }
+              ]
+            },
+            {
+              "code": "3020.140",
+              "name": "MCH",
+              "unt": "pg",
+              "rng": "27 - 35",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "30.2"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "29.4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "28.9"
+                },
+                {
+                  "val": "29.6"
+                },
+                {
+                  "val": "29.5"
+                },
+                {
+                  "val": "30.4"
+                },
+                {
+                  "val": "29.8"
+                },
+                {
+                  "val": "30.2"
+                },
+                {
+                  "val": "30.4"
+                },
+                {
+                  "val": "31.7"
+                },
+                {
+                  "val": "32.2"
+                }
+              ]
+            },
+            {
+              "code": "3020.150",
+              "name": "MCHC",
+              "unt": "g\/dL",
+              "rng": "29 - 37",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "32.5"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "34.4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "33.1"
+                },
+                {
+                  "val": "32.8"
+                },
+                {
+                  "val": "33.0"
+                },
+                {
+                  "val": "34.4"
+                },
+                {
+                  "val": "34.0"
+                },
+                {
+                  "val": "33.1"
+                },
+                {
+                  "val": "33.6"
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "3020.150",
+              "name": "  MCHC",
+              "unt": "g\/dL",
+              "rng": "32 - 36",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "34.1"
+                },
+                {
+                  "val": "34.8"
+                }
+              ]
+            },
+            {
+              "code": "3020.160",
+              "name": "RDW",
+              "rng": "11.0 - 16.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "12.4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "12.5"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "12.9"
+                },
+                {
+                  "val": "12.7"
+                },
+                {
+                  "val": "13.8"
+                },
+                {
+                  "val": "13.9"
+                },
+                {
+                  "val": "13.9"
+                },
+                {
+                  "val": "12.7"
+                },
+                {
+                  "val": "12.7"
+                },
+                {
+                  "val": "12.9"
+                },
+                {
+                  "val": "12.9"
+                }
+              ]
+            },
+            {
+              "code": "3020.170",
+              "name": "PLATELETS",
+              "unt": "x 10^9\/L",
+              "rng": "150 - 450",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "193",
+                  "com": "                                                          .\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "3020.180",
+              "name": "LEUCOCYTE COUNT",
+              "unt": "x 10^9\/L",
+              "rng": "4.0 - 12.0",
+              "reqs": [
+                {
+                  "val": "6.69"
+                },
+                {
+                  
+                },
+                {
+                  "val": "5.87"
+                },
+                {
+                  
+                },
+                {
+                  "val": "6.87"
+                },
+                {
+                  
+                },
+                {
+                  "val": "5.60"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "7.48"
+                },
+                {
+                  "val": "6.42"
+                },
+                {
+                  "val": "6.88"
+                },
+                {
+                  "val": "8.70"
+                },
+                {
+                  "val": "9.94"
+                },
+                {
+                  "val": "9.85"
+                },
+                {
+                  "val": "7.24"
+                },
+                {
+                  "val": "12.28",
+                  "flg": "H"
+                },
+                {
+                  "val": "7.31"
+                }
+              ]
+            },
+            {
+              "code": "3020.320",
+              "name": "Neutrophils",
+              "unt": "x 10^9\/L",
+              "rng": "2.0 - 7.5",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "61.1%     3.58"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "61.4%     3.44"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "64.5%     4.83"
+                },
+                {
+                  "val": "61.1%     3.93"
+                },
+                {
+                  "val": "70.5%     4.85"
+                },
+                {
+                  
+                },
+                {
+                  "val": "87.9%  H  8.74"
+                },
+                {
+                  
+                },
+                {
+                  "val": "66.8%     4.83"
+                },
+                {
+                  
+                },
+                {
+                  "val": "58.7%     4.29"
+                }
+              ]
+            },
+            {
+              "code": "3020.325",
+              "name": "Lymphocytes",
+              "unt": "x 10^9\/L",
+              "rng": "1.0 - 4.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "25.2%     1.48"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "24.3%     1.36"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "17.9%     1.34"
+                },
+                {
+                  "val": "24.5%     1.57"
+                },
+                {
+                  "val": "16.7%     1.15"
+                },
+                {
+                  
+                },
+                {
+                  "val": "8.5%  L  0.84"
+                },
+                {
+                  
+                },
+                {
+                  "val": "20.3%     1.47"
+                },
+                {
+                  
+                },
+                {
+                  "val": "28.4%     2.08"
+                }
+              ]
+            },
+            {
+              "code": "3020.330",
+              "name": "Monocytes",
+              "unt": "x 10^9\/L",
+              "rng": "0.2 - 1.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "9.0%     0.53"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "9.5%     0.53"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "13.0%     0.97"
+                },
+                {
+                  "val": "9.5%     0.61"
+                },
+                {
+                  "val": "8.7%     0.60"
+                },
+                {
+                  
+                },
+                {
+                  "val": "3.5%     0.35"
+                },
+                {
+                  
+                },
+                {
+                  "val": "9.1%     0.66"
+                },
+                {
+                  
+                },
+                {
+                  "val": "10.9%     0.80"
+                }
+              ]
+            },
+            {
+              "code": "3020.335",
+              "name": "Eosinophils",
+              "unt": "x 10^9\/L",
+              "rng": "0.0 - 0.5",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4.4%     0.26"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4.3%     0.24"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4.3%     0.32"
+                },
+                {
+                  "val": "4.7%     0.30"
+                },
+                {
+                  "val": "3.8%     0.26"
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.1%     0.01"
+                },
+                {
+                  
+                },
+                {
+                  "val": "3.7%     0.27"
+                },
+                {
+                  
+                },
+                {
+                  "val": "1.7%     0.12"
+                }
+              ]
+            },
+            {
+              "code": "3020.340",
+              "name": "Basophils",
+              "unt": "x 10^9\/L",
+              "rng": "0.0 - 0.3",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.3%     0.02"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.5%     0.03"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.3%     0.02"
+                },
+                {
+                  "val": "0.2%     0.01"
+                },
+                {
+                  "val": "0.3%     0.02"
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.0%     0.00"
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.1%     0.01"
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.3%     0.02"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cardiac",
+          "test": [
+            {
+              "code": "1008.0115",
+              "name": "hs-TROPONIN T",
+              "unt": "ng\/L",
+              "rng": "0 - 14",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "15",
+                  "flg": "H",
+                  "com": "@14\/3\/11 MF DR RAMBAU REFERENCES (SEE BELOW TEXT) \n**INTERMEDIATE RISK**\n \nRe-test in 3 - 6 hours to EXCLUDE myocardial infarction.\n \nA rise and\/or a later drop of hs-Troponin T by more than\n30% is consistent with myocardial infarction. A change of\nless than 30% is consistent with chronic causes of\nmyocardial damage such as myocarditis, severe hypertension,\nacute or chronic heart failure, renal failure, etc.\nAll hs-Troponin T levels above 99th percentile (14 ng\/L)\nare predictive of future adverse cardiac events.\n \nNB: Clinical findings such as symptoms of ischaemia, ECG\nchanges indicative of new ischaemia, pathological Q waves or\ndemonstration of a new area of infarction or disturbance of\na regional wall motility by imaging is essential for\ninterpretation of hs Troponin T.\n"
+                }
+              ]
+            },
+            {
+              "code": "1008.0115",
+              "name": "hs-TROPONIN T",
+              "unt": "ng\/L",
+              "rng": "< 15",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "19",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "11"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Renal Screen",
+          "test": [
+            {
+              "code": "1002.243",
+              "name": "eGFR (CKD-EPI-mL\/min\/1.73m2)",
+              "reqs": [
+                {
+                  "val": "36"
+                },
+                {
+                  "val": "28"
+                },
+                {
+                  "val": "35"
+                },
+                {
+                  "val": "44"
+                },
+                {
+                  "val": "47"
+                },
+                {
+                  
+                },
+                {
+                  "val": "36"
+                },
+                {
+                  "val": "37"
+                },
+                {
+                  "val": "39"
+                },
+                {
+                  "val": "33"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1002.243",
+              "name": "eGFR-(CKD-EPI)",
+              "unt": "mL\/min",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "43",
+                  "com": "Chronic kidney disease stage 3B, moderately to severely\nreduced kidney function.\nRe-test 6 monthly.\nNote: eGFR values as low as 60 mL\/min  may be normal in\npersons > 57 yrs old.\n"
+                },
+                {
+                  "val": "54",
+                  "com": "Chronic kidney disease stage 3A,mildly to moderately\nreduced kidney function.\nRe-test 6 monthly.\nNote: eGFR values as low as 60 mL\/min  may be normal in\npersons > 57 yrs old.\n"
+                },
+                {
+                  "val": "59",
+                  "com": "Chronic kidney disease stage 3A,mildly to moderately\nreduced kidney function.\nRe-test 6 monthly.\nNote: eGFR values as low as 60 mL\/min  may be normal in\npersons > 57 yrs old.\n"
+                },
+                {
+                  
+                },
+                {
+                  "val": "68",
+                  "com": "May be consistent with normal kidney function or early\nrenal disease.\nIn high risk patients (eg diabetic and hypertensive\npatients), urine examination for micro-albumin and abnormal\ncells may be necessary to exclude kidney damage.\nRe-test annually.\nNote: eGFR values as low as 60 mL\/min  may be normal in\npersons > 57 yrs old.\n"
+                },
+                {
+                  "val": "62",
+                  "com": "May be consistent with normal kidney function or early\nrenal disease.\nIn high risk patients (eg diabetic and hypertensive\npatients), urine examination for micro-albumin and abnormal\ncells may be necessary to exclude kidney damage.\nRe-test annually.\nNote: eGFR values as low as 60 mL\/min  may be normal in\npersons > 57 yrs old.\n"
+                },
+                {
+                  "val": "78",
+                  "com": "May be consistent with normal kidney function or early\nrenal disease.\nIn high risk patients (eg diabetic and hypertensive\npatients), urine examination for micro-albumin and abnormal\ncells may be necessary to exclude kidney damage.\nRe-test annually.\nNote: eGFR values as low as 60 mL\/min  may be normal in\npersons > 57 yrs old.\n"
+                },
+                {
+                  "val": "69",
+                  "com": "May be consistent with normal kidney function or early\nrenal disease.\nIn high risk patients (eg diabetic and hypertensive\npatients), urine examination for micro-albumin and abnormal\ncells may be necessary to exclude kidney damage.\nRe-test annually.\nNote: eGFR values as low as 60 mL\/min  may be normal in\npersons > 57 yrs old.\n"
+                }
+              ]
+            },
+            {
+              "code": "1017.508",
+              "name": "CRP (C-REACTIVE PROTEIN),serum",
+              "unt": "mg\/L",
+              "rng": "0.0 - 8.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "17.9",
+                  "flg": "H"
+                }
+              ]
+            },
+            {
+              "code": "1017.508",
+              "name": "CRP (C-REACTIVE PROTEIN),serum",
+              "unt": "mg\/L",
+              "rng": "< 5.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "14.8",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "9.2",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "13.7",
+                  "flg": "H"
+                },
+                {
+                  "val": "38.0",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1001.700",
+              "name": "S-SODIUM",
+              "unt": "mmol\/L",
+              "rng": "136 - 145",
+              "reqs": [
+                {
+                  "val": "138"
+                },
+                {
+                  "val": "141"
+                },
+                {
+                  "val": "138"
+                },
+                {
+                  "val": "128",
+                  "flg": "L",
+                  "com": "@PREV LOW\n"
+                },
+                {
+                  "val": "128",
+                  "flg": "L",
+                  "com": "@PREV LOW\n"
+                },
+                {
+                  
+                },
+                {
+                  "val": "129",
+                  "flg": "L",
+                  "com": "@Repeated by: Dr Manuel v Deventer 13\/10\/16 1210\n@Prev Result: 125  L mmol\/L\n"
+                },
+                {
+                  "val": "136"
+                },
+                {
+                  "val": "137",
+                  "com": "@Repeated by: SOLO,SONWABO 28\/09\/15 0834\n@Prev Result:135 mmol\/L\n"
+                },
+                {
+                  "val": "136"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1001.700",
+              "name": "S-SODIUM",
+              "unt": "mmol\/L",
+              "rng": "135 - 150",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "141"
+                },
+                {
+                  "val": "135"
+                },
+                {
+                  "val": "131",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  "val": "130",
+                  "flg": "L"
+                },
+                {
+                  "val": "132",
+                  "flg": "L"
+                },
+                {
+                  "val": "131",
+                  "flg": "L"
+                },
+                {
+                  "val": "127",
+                  "flg": "L"
+                }
+              ]
+            },
+            {
+              "code": "1001.800",
+              "name": "S-POTASSIUM",
+              "unt": "mmol\/L",
+              "rng": "3.5 - 5.1",
+              "reqs": [
+                {
+                  "val": "4.4"
+                },
+                {
+                  "val": "3.5"
+                },
+                {
+                  "val": "4.3"
+                },
+                {
+                  "val": "5.2",
+                  "flg": "H",
+                  "com": "\nNo haemolysis present.\n\n"
+                },
+                {
+                  "val": "4.3"
+                },
+                {
+                  
+                },
+                {
+                  "val": "4.2"
+                },
+                {
+                  "val": "4.4"
+                },
+                {
+                  "val": "4.3"
+                },
+                {
+                  "val": "4.6"
+                },
+                {
+                  "val": "4.6"
+                },
+                {
+                  "val": "5.0"
+                },
+                {
+                  "val": "4.5"
+                },
+                {
+                  
+                },
+                {
+                  "val": "4.5"
+                },
+                {
+                  "val": "4.8"
+                },
+                {
+                  "val": "4.6"
+                },
+                {
+                  "val": "4.4"
+                }
+              ]
+            },
+            {
+              "code": "1001.900",
+              "name": "S-CHLORIDE",
+              "unt": "mmol\/L",
+              "rng": "98 - 107",
+              "reqs": [
+                {
+                  "val": "99"
+                },
+                {
+                  "val": "97",
+                  "flg": "L"
+                },
+                {
+                  "val": "100"
+                },
+                {
+                  "val": "89",
+                  "flg": "L",
+                  "com": "@PREV LOW\n"
+                },
+                {
+                  "val": "90",
+                  "flg": "L",
+                  "com": "@PREV LOW\n"
+                },
+                {
+                  
+                },
+                {
+                  "val": "91",
+                  "flg": "L",
+                  "com": "@Repeated by: Dr Manuel v Deventer 13\/10\/16 1210\n@Prev Result: 87  L mmol\/L\n"
+                },
+                {
+                  "val": "93",
+                  "flg": "L"
+                },
+                {
+                  "val": "94",
+                  "flg": "L"
+                },
+                {
+                  "val": "95",
+                  "flg": "L"
+                },
+                {
+                  "val": "99"
+                },
+                {
+                  "val": "97",
+                  "flg": "L"
+                },
+                {
+                  "val": "96",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  "val": "94",
+                  "flg": "L"
+                },
+                {
+                  "val": "93",
+                  "flg": "L"
+                },
+                {
+                  "val": "101"
+                },
+                {
+                  "val": "94",
+                  "flg": "L"
+                }
+              ]
+            },
+            {
+              "code": "1002.000",
+              "name": "S-TOT. CO2 (bicarbonate)",
+              "unt": "mmol\/L",
+              "rng": "21 - 29",
+              "reqs": [
+                {
+                  "val": "20",
+                  "flg": "L"
+                },
+                {
+                  "val": "24"
+                },
+                {
+                  "val": "21"
+                },
+                {
+                  "val": "21"
+                },
+                {
+                  "val": "19",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  "val": "22"
+                },
+                {
+                  "val": "23"
+                },
+                {
+                  "val": "22"
+                },
+                {
+                  "val": "22"
+                },
+                {
+                  "val": "28"
+                },
+                {
+                  "val": "27"
+                },
+                {
+                  "val": "23"
+                },
+                {
+                  
+                },
+                {
+                  "val": "22"
+                },
+                {
+                  "val": "23"
+                },
+                {
+                  "val": "18",
+                  "flg": "L"
+                },
+                {
+                  "val": "21"
+                }
+              ]
+            },
+            {
+              "code": "1002.100",
+              "name": "S-UREA",
+              "unt": "mmol\/L",
+              "rng": "2.9 - 8.2",
+              "reqs": [
+                {
+                  "val": "9.3",
+                  "flg": "H"
+                },
+                {
+                  "val": "11.9",
+                  "flg": "*H"
+                },
+                {
+                  "val": "9.4",
+                  "flg": "H"
+                },
+                {
+                  "val": "10.9",
+                  "flg": "*H",
+                  "com": "@PREV HIGH\n"
+                },
+                {
+                  "val": "9.1",
+                  "flg": "H",
+                  "com": "@PREV HIGH\n"
+                },
+                {
+                  
+                },
+                {
+                  "val": "8.8",
+                  "flg": "H"
+                },
+                {
+                  "val": "9.7",
+                  "flg": "H"
+                },
+                {
+                  "val": "8.5",
+                  "flg": "H"
+                },
+                {
+                  "val": "8.0"
+                },
+                {
+                  "val": "7.5"
+                },
+                {
+                  "val": "5.6"
+                },
+                {
+                  "val": "9.2",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  "val": "7.3"
+                },
+                {
+                  "val": "5.9"
+                },
+                {
+                  "val": "9.3",
+                  "flg": "H"
+                },
+                {
+                  "val": "7.0"
+                }
+              ]
+            },
+            {
+              "code": "1002.200",
+              "name": "S-CREATININE",
+              "unt": "umol\/L",
+              "rng": "53 - 97",
+              "reqs": [
+                {
+                  "val": "126",
+                  "flg": "H"
+                },
+                {
+                  "val": "157",
+                  "flg": "H"
+                },
+                {
+                  "val": "130",
+                  "flg": "H"
+                },
+                {
+                  "val": "107",
+                  "flg": "H",
+                  "com": "@PREV HIGH\n"
+                },
+                {
+                  "val": "102",
+                  "flg": "H",
+                  "com": "@PREV HIGH\n"
+                },
+                {
+                  
+                },
+                {
+                  "val": "127",
+                  "flg": "H"
+                },
+                {
+                  "val": "126",
+                  "flg": "H"
+                },
+                {
+                  "val": "121",
+                  "flg": "H"
+                },
+                {
+                  "val": "137",
+                  "flg": "H"
+                },
+                {
+                  "val": "111",
+                  "flg": "H"
+                },
+                {
+                  "val": "93"
+                },
+                {
+                  "val": "86"
+                },
+                {
+                  
+                },
+                {
+                  "val": "77"
+                },
+                {
+                  "val": "83"
+                },
+                {
+                  "val": "69"
+                },
+                {
+                  "val": "77"
+                }
+              ]
+            },
+            {
+              "code": "2200.500",
+              "name": "S-TSH",
+              "unt": "uIU\/mL",
+              "rng": "0.35 - 4.94",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "1.49"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "1.39"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "1.68"
+                },
+                {
+                  "val": "1.83"
+                },
+                {
+                  "val": "1.58",
+                  "com": "NB: TSH follows a diurnal secretory pattern. Levels obtained\nbefore 8 am may be significantly higher than daily average\nlevels.\n"
+                },
+                {
+                  "val": "0.22",
+                  "flg": "L",
+                  "com": "@Repeated by: Dr Kogie Reddi 14\/09\/13 1207\n@Prev Result: 0.21  L uIU\/mL\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "1.13",
+                  "com": "NB: TSH follows a diurnal secretory pattern. Levels obtained\nbefore 8 am may be significantly higher than daily average\nlevels.\n"
+                },
+                {
+                  "val": "0.08",
+                  "flg": "L",
+                  "com": "NB: TSH follows a diurnal secretory pattern. Levels obtained\nbefore 8 am may be significantly higher than daily average\nlevels. \n"
+                },
+                {
+                  "val": "1.12",
+                  "com": "NB: TSH follows a diurnal secretory pattern. Levels obtained\nbefore 8 am may be significantly higher than daily average\nlevels. \n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Liver Function",
+          "test": [
+            {
+              "code": "1004.300",
+              "name": "S-BILIRUBIN,Total",
+              "unt": "umol\/L",
+              "rng": "2 - 26",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "6"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3"
+                },
+                {
+                  
+                },
+                {
+                  "val": "5"
+                }
+              ]
+            },
+            {
+              "code": "1004.300",
+              "name": "S-BILIRUBIN,Total",
+              "unt": "umol\/L",
+              "rng": "3 - 26",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "< 3",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1004.400",
+              "name": "S-BILIRUBIN conjugated",
+              "unt": "umol\/L",
+              "rng": "1 - 7",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "2"
+                },
+                {
+                  
+                },
+                {
+                  "val": "3"
+                }
+              ]
+            },
+            {
+              "code": "1004.400",
+              "name": "S-BILIRUBIN conjugated",
+              "unt": "umol\/L",
+              "rng": "2 - 7",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "< 2",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1004.500",
+              "name": "S-ALKALINE PHOSPHATASE",
+              "unt": "IU\/L",
+              "rng": "53 - 141",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "62"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "64"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "63"
+                },
+                {
+                  "val": "68"
+                },
+                {
+                  "val": "50",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "49",
+                  "flg": "L"
+                },
+                {
+                  "val": "59"
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1004.500",
+              "name": "ALKALINE PHOSPHATASE, serum",
+              "unt": "IU\/L",
+              "rng": "40 - 150",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "85"
+                }
+              ]
+            },
+            {
+              "code": "1004.600",
+              "name": "S-g-GLUTAMYL TRANSFERASE",
+              "unt": "IU\/L",
+              "rng": "0 - 44",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "21"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "19"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "27"
+                },
+                {
+                  "val": "20"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "16"
+                },
+                {
+                  "val": "16"
+                },
+                {
+                  
+                },
+                {
+                  "val": "23"
+                }
+              ]
+            },
+            {
+              "code": "1004.700",
+              "name": "S-ALT (GPT)",
+              "unt": "IU\/L",
+              "rng": "< 35",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "20"
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1004.800",
+              "name": "S-AST (GOT)",
+              "unt": "IU\/L",
+              "rng": "13 - 35",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "22"
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1016.300",
+              "name": "S-TOTAL PROTEIN",
+              "unt": "g\/L",
+              "rng": "60 - 80",
+              "reqs": [
+                {
+                  "val": "69"
+                },
+                {
+                  "val": "77"
+                },
+                {
+                  
+                },
+                {
+                  "val": "75"
+                },
+                {
+                  "val": "67"
+                },
+                {
+                  
+                },
+                {
+                  "val": "75"
+                },
+                {
+                  
+                },
+                {
+                  "val": "68"
+                },
+                {
+                  "val": "75"
+                },
+                {
+                  "val": "81",
+                  "flg": "H"
+                },
+                {
+                  "val": "60"
+                },
+                {
+                  "val": "70"
+                },
+                {
+                  
+                },
+                {
+                  "val": "65"
+                },
+                {
+                  "val": "69"
+                },
+                {
+                  "val": "69"
+                },
+                {
+                  "val": "74"
+                }
+              ]
+            },
+            {
+              "code": "1016.400",
+              "name": "S-ALBUMIN (BCG)",
+              "unt": "g\/L",
+              "rng": "35 - 50",
+              "reqs": [
+                {
+                  "val": "44"
+                },
+                {
+                  "val": "47 47",
+                  "flg": " "
+                },
+                {
+                  
+                },
+                {
+                  "val": "48"
+                },
+                {
+                  "val": "42"
+                },
+                {
+                  
+                },
+                {
+                  "val": "46 47",
+                  "flg": " "
+                },
+                {
+                  
+                },
+                {
+                  "val": "32",
+                  "flg": "L"
+                },
+                {
+                  "val": "38"
+                },
+                {
+                  "val": "46 41",
+                  "flg": " "
+                },
+                {
+                  "val": "33",
+                  "flg": "L"
+                },
+                {
+                  "val": "38"
+                },
+                {
+                  
+                },
+                {
+                  "val": "36"
+                },
+                {
+                  "val": "41"
+                },
+                {
+                  "val": "36"
+                },
+                {
+                  "val": "39 39",
+                  "flg": " "
+                }
+              ]
+            },
+            {
+              "code": "1016.4021",
+              "name": "S-ALBUMIN (CALCULATED)",
+              "unt": "g\/L",
+              "rng": "35 - 50",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "46",
+                  "com": "..............................................................\n:PLEASE NOTE: Albumin value on electrophoresis may differ    :\n:marginally from the result obtained from the Liver Function.:\n:This is due to a difference in methodology.                 :\n:............................................................:\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "43",
+                  "com": "..............................................................\n:PLEASE NOTE: Albumin value on electrophoresis may differ    :\n:marginally from the result obtained from the Liver Function.:\n:This is due to a difference in methodology.                 :\n:............................................................:\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "48",
+                  "com": "..............................................................\n:PLEASE NOTE: Albumin value on electrophoresis may differ    :\n:marginally from the result obtained from the Liver Function.:\n:This is due to a difference in methodology.                 :\n:............................................................:\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "42",
+                  "com": "..............................................................\n:PLEASE NOTE: Albumin value on electrophoresis may differ    :\n:marginally from the result obtained from the Liver Function.:\n:This is due to a difference in methodology.                 :\n:............................................................:\n"
+                }
+              ]
+            },
+            {
+              "code": "1005.200",
+              "name": "S-AMYLASE",
+              "unt": "IU\/L",
+              "rng": "25 - 125",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "67"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lipids",
+          "test": [
+            {
+              "code": "1013.700",
+              "name": "S-CHOLESTEROL",
+              "unt": "mmol\/L",
+              "rng": "< 5.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "5.7",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "5.4",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "5.2",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4.8"
+                },
+                {
+                  
+                },
+                {
+                  "val": "4.9"
+                }
+              ]
+            },
+            {
+              "code": "1013.0700",
+              "name": "S-CHOLESTEROL (Fasting)",
+              "unt": "mmol\/L",
+              "rng": "< 5.00",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "5.7",
+                  "flg": "*H",
+                  "com": "@Not lipaemic\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1014.200",
+              "name": "S-TRIGLYCERIDE",
+              "unt": "mmol\/L",
+              "rng": "< 1.70",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "1.97",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Metabolism",
+          "test": {
+            "code": "1008.600",
+            "name": "P-GLUCOSE random",
+            "unt": "mmol\/L",
+            "rng": "3.3 - 7.8",
+            "reqs": [
+              {
+                "val": "5.2"
+              },
+              {
+                
+              },
+              {
+                
+              },
+              {
+                
+              },
+              {
+                "val": "6.3"
+              },
+              {
+                
+              },
+              {
+                
+              },
+              {
+                
+              },
+              {
+                "val": "6.5"
+              },
+              {
+                
+              },
+              {
+                
+              },
+              {
+                
+              },
+              {
+                "val": "5.3"
+              },
+              {
+                
+              },
+              {
+                "val": "6.1"
+              },
+              {
+                "val": "4.8"
+              },
+              {
+                "val": "5.8"
+              },
+              {
+                "val": "5.2"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Thyroids",
+          "test": [
+            {
+              "code": "2200.500",
+              "name": "S-TSH",
+              "unt": "uIU\/mL",
+              "rng": "0.35 - 4.94",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "1.49"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "1.39"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "1.68"
+                },
+                {
+                  "val": "1.83"
+                },
+                {
+                  "val": "1.58",
+                  "com": "NB: TSH follows a diurnal secretory pattern. Levels obtained\nbefore 8 am may be significantly higher than daily average\nlevels.\n"
+                },
+                {
+                  "val": "0.22",
+                  "flg": "L",
+                  "com": "@Repeated by: Dr Kogie Reddi 14\/09\/13 1207\n@Prev Result: 0.21  L uIU\/mL\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "1.13",
+                  "com": "NB: TSH follows a diurnal secretory pattern. Levels obtained\nbefore 8 am may be significantly higher than daily average\nlevels.\n"
+                },
+                {
+                  "val": "0.08",
+                  "flg": "L",
+                  "com": "NB: TSH follows a diurnal secretory pattern. Levels obtained\nbefore 8 am may be significantly higher than daily average\nlevels. \n"
+                },
+                {
+                  "val": "1.12",
+                  "com": "NB: TSH follows a diurnal secretory pattern. Levels obtained\nbefore 8 am may be significantly higher than daily average\nlevels. \n"
+                }
+              ]
+            },
+            {
+              "code": "2200.600",
+              "name": "S-FT3 (DIRECT)",
+              "unt": "pmol\/L",
+              "rng": "2.6 - 5.7",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3.5"
+                },
+                {
+                  
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bone and mineral",
+          "test": [
+            {
+              "code": "1005.500",
+              "name": "S-CALCIUM Total",
+              "unt": "mmol\/L",
+              "rng": "2.20 - 2.50",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "2.40"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "2.35"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "2.42"
+                },
+                {
+                  "val": "2.47"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "2.45"
+                },
+                {
+                  
+                },
+                {
+                  "val": "2.22"
+                }
+              ]
+            },
+            {
+              "code": "1016.400",
+              "name": "S-ALBUMIN (BCG)",
+              "unt": "g\/L",
+              "rng": "35 - 50",
+              "reqs": [
+                {
+                  "val": "44"
+                },
+                {
+                  "val": "47 47",
+                  "flg": " "
+                },
+                {
+                  
+                },
+                {
+                  "val": "48"
+                },
+                {
+                  "val": "42"
+                },
+                {
+                  
+                },
+                {
+                  "val": "46 47",
+                  "flg": " "
+                },
+                {
+                  
+                },
+                {
+                  "val": "32",
+                  "flg": "L"
+                },
+                {
+                  "val": "38"
+                },
+                {
+                  "val": "46 41",
+                  "flg": " "
+                },
+                {
+                  "val": "33",
+                  "flg": "L"
+                },
+                {
+                  "val": "38"
+                },
+                {
+                  
+                },
+                {
+                  "val": "36"
+                },
+                {
+                  "val": "41"
+                },
+                {
+                  "val": "36"
+                },
+                {
+                  "val": "39 39",
+                  "flg": " "
+                }
+              ]
+            },
+            {
+              "code": "1016.405",
+              "name": "S-CALCIUM Adjusted",
+              "unt": "mmol\/L",
+              "rng": "2.20 - 2.50",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "2.26"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "2.46"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "2.25"
+                }
+              ]
+            },
+            {
+              "code": "1016.475",
+              "name": "VITAMIN D 25",
+              "unt": "ng\/mL",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "20.6",
+                  "com": " \n............................................................\n:              Reference Ranges for Vitamin D25            :\n:              --------------------------------            :\n:      < 10   ng\/mL       Severe Deficiency                :\n:   10 - 29   ng\/mL       Moderate Deficiency              :\n:   30 - 100  ng\/mL       Sufficiency                      :\n:      > 100  ng\/mL       Toxic                            :\n:                                                          :\n: Please note:                                             :\n: Vit D is now measured using the ABBOTT ARCHITECT 25OH    :\n: TOTAL VIT D assay. Guidelines for interpretation remain  :\n: the same.                                                :\n............................................................\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tumour Markers",
+          "test": [
+            {
+              "code": "2200.700",
+              "name": "S-FT4 (THYROXINE)",
+              "unt": "pmol\/L",
+              "rng": "9.0 - 19.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "14.2"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "16.8"
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "2200.300",
+              "name": "S-CA 19-9 (Abbott)",
+              "unt": "U\/mL",
+              "rng": "0.0 - 37.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "2.4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "5.2"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "< 2.0"
+                },
+                {
+                  
+                },
+                {
+                  "val": "6.1"
+                }
+              ]
+            },
+            {
+              "code": "2200.300",
+              "name": "S-CA 19-9 (Abbott)",
+              "unt": "U\/mL",
+              "rng": "0 - 37",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "2200.400",
+              "name": "S-CEA (Abbott)",
+              "unt": "ug\/L",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "3.1",
+                  "com": "................................................................................\n:                                      RANGE                                   :\n:                                      -----                                   :\n:HEALTHY PATIENTS: - NON SMOKERS:  0   -  2.5  ug\/L                            :\n:                  - SMOKERS    :  0   -  5.0  ug\/L                            :\n:..............................................................................:\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3.9",
+                  "com": "................................................................................\n:                                      RANGE                                   :\n:                                      -----                                   :\n:HEALTHY PATIENTS: - NON SMOKERS:  0   -  2.5  ug\/L                            :\n:                  - SMOKERS    :  0   -  5.0  ug\/L                            :\n:..............................................................................:\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3.7",
+                  "com": "@ASSAY METHOD: CENTAUR\n@              PLEASE NOTE NEW NORMAL RANGE EFECTIVE 01\/08\/2002\n@PLEASE NOTE: BECAUSE OF A CHANGE IN ASSAY METHOD, PATIENTS WHO HAVE BEEN\n@SERIALLY MONITORED SHOULD HAVE A BASELINE LEVEL RE-ESTABLISHED.\n@28\/06\/04 JGY NEW - AS PER DR REDDI\/DR DU PLESSIS\n@07\/05\/12 MF No 1477337       Title ROMA INDEX + TUMOUR MARKERS SETUPCHANGES\n................................................................................\n:                                               RANGE                          :\n:                                               -----                          :\n:HEALTHY PATIENTS: - NON SMOKERS  +\/- 98 %   0   - 2.5  ug\/l                   :\n:                     \"    \"      +\/- 2  %   2.6 - 5.0  ug\/l                   :\n:                  - SMOKERS      +\/- 87 %   0   - 2.5  ug\/l                   :\n:                       \"         +\/- 8  %   2.6 - 5.0  ug\/l                   :\n:                       \"         +\/- 5  %   5.1 - 10.0 ug\/l                   :\n:..............................................................................:\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "2.7",
+                  "com": "@ASSAY METHOD: CENTAUR\n@              PLEASE NOTE NEW NORMAL RANGE EFECTIVE 01\/08\/2002\n@PLEASE NOTE: BECAUSE OF A CHANGE IN ASSAY METHOD, PATIENTS WHO HAVE BEEN\n@SERIALLY MONITORED SHOULD HAVE A BASELINE LEVEL RE-ESTABLISHED.\n@28\/06\/04 JGY NEW - AS PER DR REDDI\/DR DU PLESSIS\n@07\/05\/12 MF No 1477337       Title ROMA INDEX + TUMOUR MARKERS SETUPCHANGES\n................................................................................\n:                                               RANGE                          :\n:                                               -----                          :\n:HEALTHY PATIENTS: - NON SMOKERS  +\/- 98 %   0   - 2.5  ug\/l                   :\n:                     \"    \"      +\/- 2  %   2.6 - 5.0  ug\/l                   :\n:                  - SMOKERS      +\/- 87 %   0   - 2.5  ug\/l                   :\n:                       \"         +\/- 8  %   2.6 - 5.0  ug\/l                   :\n:                       \"         +\/- 5  %   5.1 - 10.0 ug\/l                   :\n:..............................................................................:\n"
+                },
+                {
+                  
+                },
+                {
+                  "val": "3.9",
+                  "com": "@ASSAY METHOD: CENTAUR\n@              PLEASE NOTE NEW NORMAL RANGE EFECTIVE 01\/08\/2002\n@PLEASE NOTE: BECAUSE OF A CHANGE IN ASSAY METHOD, PATIENTS WHO HAVE BEEN \n@SERIALLY MONITORED SHOULD HAVE A BASELINE LEVEL RE-ESTABLISHED.\n@28\/06\/04 JGY NEW - AS PER DR REDDI\/DR DU PLESSIS\n@07\/05\/12 MF No 1477337       Title ROMA INDEX + TUMOUR MARKERS SETUPCHANGES    \n................................................................................\n:                                               RANGE                          :\n:                                               -----                          :\n:HEALTHY PATIENTS: - NON SMOKERS  +\/- 98 %   0   - 2.5  ug\/l                   :\n:                     \"    \"      +\/- 2  %   2.6 - 5.0  ug\/l                   :\n:                  - SMOKERS      +\/- 87 %   0   - 2.5  ug\/l                   :\n:                       \"         +\/- 8  %   2.6 - 5.0  ug\/l                   :\n:                       \"         +\/- 5  %   5.1 - 10.0 ug\/l                   :\n:..............................................................................:\n"
+                }
+              ]
+            },
+            {
+              "code": "2000.602",
+              "name": "S-CA 125 (Abbott)",
+              "unt": "U\/mL",
+              "rng": "0.0 - 35.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "20"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "15"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "10"
+                },
+                {
+                  
+                },
+                {
+                  "val": "10"
+                }
+              ]
+            },
+            {
+              "code": "2000.602",
+              "name": "S-CA 125 (Abbott)",
+              "unt": "U\/mL",
+              "rng": "0 - 35",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "20"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Others",
+          "test": [
+            {
+              "code": "1004.900",
+              "name": "S-LACTATE DEHYDROGENASE",
+              "unt": "IU\/L",
+              "rng": "120 - 230",
+              "reqs": [
+                {
+                  "val": "241",
+                  "flg": "H"
+                },
+                {
+                  "val": "365",
+                  "flg": "*H",
+                  "com": "\nNo haemolysis present.\n\n"
+                },
+                {
+                  
+                },
+                {
+                  "val": "215"
+                },
+                {
+                  "val": "199"
+                },
+                {
+                  
+                },
+                {
+                  "val": "204"
+                },
+                {
+                  
+                },
+                {
+                  "val": "222"
+                },
+                {
+                  "val": "243",
+                  "flg": "H"
+                },
+                {
+                  "val": "243",
+                  "flg": "H"
+                },
+                {
+                  "val": "252",
+                  "flg": "H",
+                  "com": "@ NO HAEMOLYSIS OBSERVED\n@ PREV HIGH\n"
+                },
+                {
+                  "val": "208"
+                },
+                {
+                  
+                },
+                {
+                  "val": "192"
+                },
+                {
+                  "val": "231",
+                  "flg": "H"
+                },
+                {
+                  "val": "209"
+                },
+                {
+                  "val": "246",
+                  "flg": "H"
+                }
+              ]
+            },
+            {
+              "code": "1015.696",
+              "name": "S-IRON",
+              "unt": "umol\/L",
+              "rng": "9.0 - 30.4",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "11.7"
+                }
+              ]
+            },
+            {
+              "code": "1015.705",
+              "name": "S-TRANSFERRIN",
+              "unt": "umol\/L",
+              "rng": "26.0 - 47.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "26.9"
+                }
+              ]
+            },
+            {
+              "code": "1015.725",
+              "name": "S-% SATURATION",
+              "unt": "%",
+              "rng": "20.0 - 55.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "21.7"
+                }
+              ]
+            },
+            {
+              "code": "1015.731",
+              "name": "S-FERRITIN",
+              "unt": "ng\/mL",
+              "rng": "20 - 300",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "317",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "277"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "216"
+                },
+                {
+                  "val": "119"
+                },
+                {
+                  "val": "188",
+                  "com": "@09\/07\/04 JGY AS PER DR REDDI\n________________________________________________________________________________\n|Condition               :Fe      :Transferrin: % Sat    :Ferritin: Hb         |\n|------------------------:--------:-----------:----------:--------:------------|\n|Decreased iron stores   :Normal  :Normal     :Normal    :  < 20  :Normal      |\n|........................:        :           :          :        :            |\n|Fe Deficiency Anaemia   :Low     :High       :Low       :  < 20  :Low         |\n|........................:        :           :          :        :            |\n|Fe Deficiency with      :        :           :          :        :            |\n|inflamation             :Low     :Normal\/Low :Low       :  < 50  :Low\/Normal  |\n|........................:        :           :          :        :            |\n|Anaemia of Chronic      :        :           :          :        :            |\n|Disorders               :Low     :Normal\/Low :Normal\/Low:  High  :Low         |\n|........................:        :           :          :        :            |\n|Fe Overload             :High    :Normal\/Low :High      :  > 300 :Normal\/High |\n|______________________________________________________________________________|\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "55",
+                  "com": "@09\/07\/04 JGY AS PER DR REDDI\n________________________________________________________________________________\n|Condition               :Fe      :Transferrin: % Sat    :Ferritin: Hb         |\n|------------------------:--------:-----------:----------:--------:------------|\n|Decreased iron stores   :Normal  :Normal     :Normal    :  < 20  :Normal      |\n|........................:        :           :          :        :            |\n|Fe Deficiency Anaemia   :Low     :High       :Low       :  < 20  :Low         |\n|........................:        :           :          :        :            |\n|Fe Deficiency with      :        :           :          :        :            |\n|inflamation             :Low     :Normal\/Low :Low       :  < 50  :Low\/Normal  |\n|........................:        :           :          :        :            |\n|Anaemia of Chronic      :        :           :          :        :            |\n|Disorders               :Low     :Normal\/Low :Normal\/Low:  High  :Low         |\n|........................:        :           :          :        :            |\n|Fe Overload             :High    :Normal\/Low :High      :  > 300 :Normal\/High |\n|______________________________________________________________________________|\n"
+                },
+                {
+                  
+                },
+                {
+                  "val": "132",
+                  "com": "@09\/07\/04 JGY AS PER DR REDDI\n________________________________________________________________________________\n|Condition               :Fe      :Transferrin: % Sat    :Ferritin: Hb         |\n|------------------------:--------:-----------:----------:--------:------------|\n|Decreased iron stores   :Normal  :Normal     :Normal    :  < 20  :Normal      |\n|........................:        :           :          :        :            |\n|Fe Deficiency Anaemia   :Low     :High       :Low       :  < 20  :Low         |\n|........................:        :           :          :        :            |\n|Fe Deficiency with      :        :           :          :        :            |\n|inflamation             :Low     :Normal\/Low :Low       :  < 50  :Low\/Normal  |\n|........................:        :           :          :        :            |\n|Anaemia of Chronic      :        :           :          :        :            |\n|Disorders               :Low     :Normal\/Low :Normal\/Low:  High  :Low         |\n|........................:        :           :          :        :            |\n|Fe Overload             :High    :Normal\/Low :High      :  > 300 :Normal\/High |\n|______________________________________________________________________________|\n"
+                }
+              ]
+            },
+            {
+              "code": "1016.220",
+              "name": "GLOBULIN, serum",
+              "unt": "g\/L",
+              "rng": "20 - 35",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "28"
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1016.5001",
+              "name": "S-ALPHA 1 GLOBULIN",
+              "unt": "g\/L",
+              "rng": "2 - 6",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                }
+              ]
+            },
+            {
+              "code": "1016.6001",
+              "name": "S-ALPHA 2 GLOBULIN",
+              "unt": "g\/L",
+              "rng": "3 - 10",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "9"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "10"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "10"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "11",
+                  "flg": "H"
+                }
+              ]
+            },
+            {
+              "code": "1016.7001",
+              "name": "S-BETA 1 GLOBULIN",
+              "unt": "g\/L",
+              "rng": "3 - 6",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "5"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                }
+              ]
+            },
+            {
+              "code": "1016.7002",
+              "name": "S-BETA 2 GLOBULIN",
+              "unt": "g\/L",
+              "rng": "2 - 6",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "5"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                }
+              ]
+            },
+            {
+              "code": "1016.7951",
+              "name": "S-GAMMA GLOBULIN",
+              "unt": "g\/L",
+              "rng": "6 - 15",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "10"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "11"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "11"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "9"
+                }
+              ]
+            },
+            {
+              "code": "1016.8001",
+              "name": "S-'M' COMPONENT",
+              "unt": "g\/l",
+              "rng": "0 - 0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "0"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0"
+                }
+              ]
+            },
+            {
+              "code": "2001.222",
+              "name": "proBNP",
+              "unt": "pg\/mL",
+              "rng": "50 - 300",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "1135",
+                  "flg": "H",
+                  "com": "@26\/05\/05 JGY AS PER DR REDDI\n@REF:JL JANUZZI ET AL. AM J CARDIOL 2005; 95:948-54\n@REF:JL JANUZZI ET AL J AM COLL CARDIOL 2005; 45:140 SUPPL A\n@-----------------------------------------------------------\nNT-proBNP  <300 pg\/mL      Acute Congestive heart failure\n                           (CHF) unlikely\n                           (negative predictive value -98%)\n\nNT-proBNP  300-1800 pg\/mL  see table below\n\n............................................................\n:PATIENT AGE (YRS):        NT-proBNP VALUES (pg\/mL)        :\n:.................:........................................:\n:INTERPRETATATION :Acute CHF less likely :Acute CHF likely :\n:                 :Alternative causes    :                 :\n:                 :must be considered    :                 :\n;.................:......................:.................:\n:    < 50         :   300 - 450          :   > 450         :\n:    50 - 75      :   300 - 900          :   > 900         :\n:    > 75         :   300 - 1800         :   > 1800        :\n:.................:......................:.................:\n\nAlternate causes for raised NT-proBNP\nAcute coronary syndrome, pulmonary embolus, clinical shock,\nsevere pneumonia, renal insufficiency\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "3020.1722",
+              "name": "RETICULOCYTES (corrected)",
+              "unt": "%",
+              "rng": "0.5 - 2.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.7"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.6"
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "3020.1723",
+              "name": "Reticulocyte (Absolute)",
+              "unt": "10^9\/L",
+              "rng": "50.00 -100.00",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "24.57",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "32.60",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "3020.1729",
+              "name": "Retic Production Index",
+              "unt": "%",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "0.4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "3828.003",
+              "name": "QUANTITATIVE D-DIMER",
+              "unt": "ug\/mL",
+              "rng": "0.05 - 0.5",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.33",
+                  "com": "The Vidas D-dimer is determined by an ELISA method, which is\ncurrently considered the gold standard in D-dimer testing.\n\nThe test has an excellent negative predictive value, and a\nnegative result will rule out Venous Thromboembolic Disease\n(VTE).  If there is a high clinical pre-test probability of\npulmonary embolism or DVT (Based on the Wells\/Geneva score),\nhowever, it is recommended that more definitive\ninvestigations be done in addition to a D-dimer test.\n\nA positive D-dimer result is not specific for VTE, but may\nalso be seen in consumptive coagulopathies, chronic illness,\nprolonged bed-rest, pregnancy, renal insufficiency, post\ntrauma and surgery.\n"
+                },
+                {
+                  "val": "0.42",
+                  "com": "The Vidas D-dimer is determined by an ELISA method, which is\ncurrently considered the gold standard in D-dimer testing.\n\nThe test has an excellent negative predictive value, and a\nnegative result will rule out Venous Thromboembolic Disease\n(VTE).  If there is a high clinical pre-test probability of\npulmonary embolism or DVT (Based on the Wells\/Geneva score),\nhowever, it is recommended that more definitive\ninvestigations be done in addition to a D-dimer test.\n\nA positive D-dimer result is not specific for VTE, but may\nalso be seen in consumptive coagulopathies, chronic illness,\nprolonged bed-rest, pregnancy, renal insufficiency, post\ntrauma and surgery.\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.43",
+                  "com": "The Vidas D-dimer is determined by an ELISA method, which is\ncurrently considered the gold standard in D-dimer testing.\n\nThe test has an excellent negative predictive value, and a\nnegative result will rule out Venous Thromboembolic Disease\n(VTE).  If there is a high clinical pre-test probability of\npulmonary embolism or DVT (Based on the Wells\/Geneva score),\nhowever, it is recommended that more definitive\ninvestigations be done in addition to a D-dimer test.\n\nA positive D-dimer result is not specific for VTE, but may\nalso be seen in consumptive coagulopathies, chronic illness,\nprolonged bed-rest, pregnancy, renal insufficiency, post\ntrauma and surgery.\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.49",
+                  "com": "The Vidas D-dimer is determined by an ELISA method, which is\ncurrently considered the gold standard in D-dimer testing.\n \nThe test has an excellent negative predictive value, and a\nnegative result will rule out Venous Thromboembolic Disease\n(VTE).  If there is a high clinical pre-test probability of\npulmonary embolism or DVT (Based on the Wells\/Geneva score),\nhowever, it is recommended that more definitive\ninvestigations be done in addition to a D-dimer test.\n \nA positive D-dimer result is not specific for VTE, but may\nalso be seen in consumptive coagulopathies, chronic illness,\nprolonged bed-rest, pregnancy, renal insufficiency, post\ntrauma and surgery.\n"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reqs": [
+        {
+          "req": "341149761",
+          "stat": "COMP",
+          "cd": "2017-04-10",
+          "ct": "08:38"
+        },
+        {
+          "req": "341158452",
+          "stat": "COMP",
+          "cd": "2017-04-06",
+          "ct": "15:20"
+        },
+        {
+          "req": "341128150",
+          "stat": "COMP",
+          "cd": "2016-10-19",
+          "ct": "07:55"
+        },
+        {
+          "req": "341124335",
+          "stat": "COMP",
+          "cd": "2016-10-17",
+          "ct": "07:40"
+        },
+        {
+          "req": "341128638",
+          "stat": "COMP",
+          "cd": "2016-10-13",
+          "ct": "11:05"
+        },
+        {
+          "req": "341359245",
+          "stat": "COMP",
+          "cd": "2015-09-28",
+          "ct": "07:30"
+        },
+        {
+          "req": "341364050",
+          "stat": "COMP",
+          "cd": "2015-09-22",
+          "ct": "09:35"
+        },
+        {
+          "req": "341299145",
+          "stat": "COMP",
+          "cd": "2014-05-23",
+          "ct": "08:15"
+        },
+        {
+          "req": "341257904",
+          "stat": "COMP",
+          "cd": "2013-10-07",
+          "ct": "09:30"
+        },
+        {
+          "req": "341257282",
+          "stat": "COMP",
+          "cd": "2013-09-14",
+          "ct": "09:00"
+        },
+        {
+          "req": "341249676",
+          "stat": "COMP",
+          "cd": "2013-09-11",
+          "ct": "07:44"
+        },
+        {
+          "req": "341249648",
+          "stat": "COMP",
+          "cd": "2013-09-09",
+          "ct": "17:50"
+        },
+        {
+          "req": "341208533",
+          "stat": "COMP",
+          "cd": "2012-06-29",
+          "ct": "07:48"
+        },
+        {
+          "req": "341208433",
+          "stat": "COMP",
+          "cd": "2012-06-25",
+          "ct": "15:35"
+        }
+      ],
+      "group": [
+        {
+          "name": "BIOCHEMISTRY",
+          "test": [
+            {
+              "code": "1004.900",
+              "name": "S-LACTATE DEHYDROGENASE",
+              "unt": "IU\/L",
+              "rng": "120 - 230",
+              "reqs": [
+                {
+                  "val": "241",
+                  "flg": "H"
+                },
+                {
+                  "val": "365",
+                  "flg": "*H",
+                  "com": "\nNo haemolysis present.\n\n"
+                },
+                {
+                  "val": "215"
+                },
+                {
+                  "val": "199"
+                },
+                {
+                  "val": "204"
+                },
+                {
+                  "val": "222"
+                },
+                {
+                  "val": "243",
+                  "flg": "H"
+                },
+                {
+                  "val": "243",
+                  "flg": "H"
+                },
+                {
+                  "val": "252",
+                  "flg": "H",
+                  "com": "@ NO HAEMOLYSIS OBSERVED\n@ PREV HIGH\n"
+                },
+                {
+                  "val": "208"
+                },
+                {
+                  "val": "192"
+                },
+                {
+                  "val": "231",
+                  "flg": "H"
+                },
+                {
+                  "val": "209"
+                },
+                {
+                  "val": "246",
+                  "flg": "H"
+                }
+              ]
+            },
+            {
+              "code": "1016.220",
+              "name": "GLOBULIN, serum",
+              "unt": "g\/L",
+              "rng": "20 - 35",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "28"
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "1016.5001",
+              "name": "S-ALPHA 1 GLOBULIN",
+              "unt": "g\/L",
+              "rng": "2 - 6",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                }
+              ]
+            },
+            {
+              "code": "1016.6001",
+              "name": "S-ALPHA 2 GLOBULIN",
+              "unt": "g\/L",
+              "rng": "3 - 10",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "9"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "10"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "10"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "11",
+                  "flg": "H"
+                }
+              ]
+            },
+            {
+              "code": "1016.7001",
+              "name": "S-BETA 1 GLOBULIN",
+              "unt": "g\/L",
+              "rng": "3 - 6",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "5"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                }
+              ]
+            },
+            {
+              "code": "1016.7002",
+              "name": "S-BETA 2 GLOBULIN",
+              "unt": "g\/L",
+              "rng": "2 - 6",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "5"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "4"
+                }
+              ]
+            },
+            {
+              "code": "1016.7951",
+              "name": "S-GAMMA GLOBULIN",
+              "unt": "g\/L",
+              "rng": "6 - 15",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "10"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "11"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "11"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "9"
+                }
+              ]
+            },
+            {
+              "code": "1016.8001",
+              "name": "S-'M' COMPONENT",
+              "unt": "g\/l",
+              "rng": "0 - 0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "0"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0"
+                }
+              ]
+            },
+            {
+              "code": "2001.222",
+              "name": "proBNP",
+              "unt": "pg\/mL",
+              "rng": "50 - 300",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "1135",
+                  "flg": "H",
+                  "com": "@26\/05\/05 JGY AS PER DR REDDI\n@REF:JL JANUZZI ET AL. AM J CARDIOL 2005; 95:948-54\n@REF:JL JANUZZI ET AL J AM COLL CARDIOL 2005; 45:140 SUPPL A\n@-----------------------------------------------------------\nNT-proBNP  <300 pg\/mL      Acute Congestive heart failure\n                           (CHF) unlikely\n                           (negative predictive value -98%)\n\nNT-proBNP  300-1800 pg\/mL  see table below\n\n............................................................\n:PATIENT AGE (YRS):        NT-proBNP VALUES (pg\/mL)        :\n:.................:........................................:\n:INTERPRETATATION :Acute CHF less likely :Acute CHF likely :\n:                 :Alternative causes    :                 :\n:                 :must be considered    :                 :\n;.................:......................:.................:\n:    < 50         :   300 - 450          :   > 450         :\n:    50 - 75      :   300 - 900          :   > 900         :\n:    > 75         :   300 - 1800         :   > 1800        :\n:.................:......................:.................:\n\nAlternate causes for raised NT-proBNP\nAcute coronary syndrome, pulmonary embolus, clinical shock,\nsevere pneumonia, renal insufficiency\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ENDOCRINOLOGY",
+          "test": [
+            {
+              "code": "1015.696",
+              "name": "S-IRON",
+              "unt": "umol\/L",
+              "rng": "9.0 - 30.4",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "11.7"
+                }
+              ]
+            },
+            {
+              "code": "1015.705",
+              "name": "S-TRANSFERRIN",
+              "unt": "umol\/L",
+              "rng": "26.0 - 47.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "26.9"
+                }
+              ]
+            },
+            {
+              "code": "1015.725",
+              "name": "S-% SATURATION",
+              "unt": "%",
+              "rng": "20.0 - 55.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "21.7"
+                }
+              ]
+            },
+            {
+              "code": "1015.731",
+              "name": "S-FERRITIN",
+              "unt": "ng\/mL",
+              "rng": "20 - 300",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "317",
+                  "flg": "H"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "277"
+                },
+                {
+                  
+                },
+                {
+                  "val": "216"
+                },
+                {
+                  "val": "119"
+                },
+                {
+                  "val": "188",
+                  "com": "@09\/07\/04 JGY AS PER DR REDDI\n________________________________________________________________________________\n|Condition               :Fe      :Transferrin: % Sat    :Ferritin: Hb         |\n|------------------------:--------:-----------:----------:--------:------------|\n|Decreased iron stores   :Normal  :Normal     :Normal    :  < 20  :Normal      |\n|........................:        :           :          :        :            |\n|Fe Deficiency Anaemia   :Low     :High       :Low       :  < 20  :Low         |\n|........................:        :           :          :        :            |\n|Fe Deficiency with      :        :           :          :        :            |\n|inflamation             :Low     :Normal\/Low :Low       :  < 50  :Low\/Normal  |\n|........................:        :           :          :        :            |\n|Anaemia of Chronic      :        :           :          :        :            |\n|Disorders               :Low     :Normal\/Low :Normal\/Low:  High  :Low         |\n|........................:        :           :          :        :            |\n|Fe Overload             :High    :Normal\/Low :High      :  > 300 :Normal\/High |\n|______________________________________________________________________________|\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "55",
+                  "com": "@09\/07\/04 JGY AS PER DR REDDI\n________________________________________________________________________________\n|Condition               :Fe      :Transferrin: % Sat    :Ferritin: Hb         |\n|------------------------:--------:-----------:----------:--------:------------|\n|Decreased iron stores   :Normal  :Normal     :Normal    :  < 20  :Normal      |\n|........................:        :           :          :        :            |\n|Fe Deficiency Anaemia   :Low     :High       :Low       :  < 20  :Low         |\n|........................:        :           :          :        :            |\n|Fe Deficiency with      :        :           :          :        :            |\n|inflamation             :Low     :Normal\/Low :Low       :  < 50  :Low\/Normal  |\n|........................:        :           :          :        :            |\n|Anaemia of Chronic      :        :           :          :        :            |\n|Disorders               :Low     :Normal\/Low :Normal\/Low:  High  :Low         |\n|........................:        :           :          :        :            |\n|Fe Overload             :High    :Normal\/Low :High      :  > 300 :Normal\/High |\n|______________________________________________________________________________|\n"
+                },
+                {
+                  
+                },
+                {
+                  "val": "132",
+                  "com": "@09\/07\/04 JGY AS PER DR REDDI\n________________________________________________________________________________\n|Condition               :Fe      :Transferrin: % Sat    :Ferritin: Hb         |\n|------------------------:--------:-----------:----------:--------:------------|\n|Decreased iron stores   :Normal  :Normal     :Normal    :  < 20  :Normal      |\n|........................:        :           :          :        :            |\n|Fe Deficiency Anaemia   :Low     :High       :Low       :  < 20  :Low         |\n|........................:        :           :          :        :            |\n|Fe Deficiency with      :        :           :          :        :            |\n|inflamation             :Low     :Normal\/Low :Low       :  < 50  :Low\/Normal  |\n|........................:        :           :          :        :            |\n|Anaemia of Chronic      :        :           :          :        :            |\n|Disorders               :Low     :Normal\/Low :Normal\/Low:  High  :Low         |\n|........................:        :           :          :        :            |\n|Fe Overload             :High    :Normal\/Low :High      :  > 300 :Normal\/High |\n|______________________________________________________________________________|\n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HAEMATOLOGY",
+          "test": [
+            {
+              "code": "3020.1722",
+              "name": "RETICULOCYTES (corrected)",
+              "unt": "%",
+              "rng": "0.5 - 2.0",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.7"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.6"
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "3020.1723",
+              "name": "Reticulocyte (Absolute)",
+              "unt": "10^9\/L",
+              "rng": "50.00 -100.00",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "24.57",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "32.60",
+                  "flg": "L"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "3020.1729",
+              "name": "Retic Production Index",
+              "unt": "%",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  "val": "0.4"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.3"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                }
+              ]
+            },
+            {
+              "code": "3828.003",
+              "name": "QUANTITATIVE D-DIMER",
+              "unt": "ug\/mL",
+              "rng": "0.05 - 0.5",
+              "reqs": [
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.33",
+                  "com": "The Vidas D-dimer is determined by an ELISA method, which is\ncurrently considered the gold standard in D-dimer testing.\n\nThe test has an excellent negative predictive value, and a\nnegative result will rule out Venous Thromboembolic Disease\n(VTE).  If there is a high clinical pre-test probability of\npulmonary embolism or DVT (Based on the Wells\/Geneva score),\nhowever, it is recommended that more definitive\ninvestigations be done in addition to a D-dimer test.\n\nA positive D-dimer result is not specific for VTE, but may\nalso be seen in consumptive coagulopathies, chronic illness,\nprolonged bed-rest, pregnancy, renal insufficiency, post\ntrauma and surgery.\n"
+                },
+                {
+                  "val": "0.42",
+                  "com": "The Vidas D-dimer is determined by an ELISA method, which is\ncurrently considered the gold standard in D-dimer testing.\n\nThe test has an excellent negative predictive value, and a\nnegative result will rule out Venous Thromboembolic Disease\n(VTE).  If there is a high clinical pre-test probability of\npulmonary embolism or DVT (Based on the Wells\/Geneva score),\nhowever, it is recommended that more definitive\ninvestigations be done in addition to a D-dimer test.\n\nA positive D-dimer result is not specific for VTE, but may\nalso be seen in consumptive coagulopathies, chronic illness,\nprolonged bed-rest, pregnancy, renal insufficiency, post\ntrauma and surgery.\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.43",
+                  "com": "The Vidas D-dimer is determined by an ELISA method, which is\ncurrently considered the gold standard in D-dimer testing.\n\nThe test has an excellent negative predictive value, and a\nnegative result will rule out Venous Thromboembolic Disease\n(VTE).  If there is a high clinical pre-test probability of\npulmonary embolism or DVT (Based on the Wells\/Geneva score),\nhowever, it is recommended that more definitive\ninvestigations be done in addition to a D-dimer test.\n\nA positive D-dimer result is not specific for VTE, but may\nalso be seen in consumptive coagulopathies, chronic illness,\nprolonged bed-rest, pregnancy, renal insufficiency, post\ntrauma and surgery.\n"
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  
+                },
+                {
+                  "val": "0.49",
+                  "com": "The Vidas D-dimer is determined by an ELISA method, which is\ncurrently considered the gold standard in D-dimer testing.\n \nThe test has an excellent negative predictive value, and a\nnegative result will rule out Venous Thromboembolic Disease\n(VTE).  If there is a high clinical pre-test probability of\npulmonary embolism or DVT (Based on the Wells\/Geneva score),\nhowever, it is recommended that more definitive\ninvestigations be done in addition to a D-dimer test.\n \nA positive D-dimer result is not specific for VTE, but may\nalso be seen in consumptive coagulopathies, chronic illness,\nprolonged bed-rest, pregnancy, renal insufficiency, post\ntrauma and surgery.\n"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
